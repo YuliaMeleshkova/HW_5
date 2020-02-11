@@ -1,0 +1,87 @@
+html, body {
+    margin: 0;
+    font-size: 15px;
+    min-height: 100%;
+    height: 100%;
+    background: darkgray;
+}
+
+p, h3, div {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.clearfix::after {
+    clear: both;
+    content: " ";
+    display: block;
+}
+
+.green-text {
+    color: green;
+}
+
+.container {
+    background: white;
+    margin: 10px auto;
+    width: 80%;
+    border: 1px solid gray;
+    padding: 10px;
+}
+
+.product {
+    width: 20%;
+    padding: 10px;
+    /*margin: 1px;*/
+    border: 1px solid grey;
+    background: white;
+    border-radius: 5px;
+    position: relative;
+    min-width: 150px;
+    float: left;
+}
+
+.right {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.right img {
+    width: 25px;
+    display: block;
+    margin: 5px;
+}
+
+.image-container {
+    height: 150px;
+    text-align: center;
+}
+
+.image-container img {
+    max-height: 150px;
+    max-width: 100%;
+}
+
+.product-info h3 span {
+    font-size: 17px;
+}
+
+.product-description{
+    position: relative;
+}
+
+.product-description img {
+    width: 25px;
+    /*position: absolute;*/
+    /*right: 0;*/
+    /*top: 0;*/
+
+    /*#2*/
+    float: right
+}
+
+.product-info > p {
+    min-height: 5em;
+}
+
